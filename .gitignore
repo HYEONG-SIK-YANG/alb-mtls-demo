@@ -1,0 +1,37 @@
+# dependencies & build output
+node_modules/
+cdk.out/
+*.js
+!jest.config.js
+*.d.ts
+*.tsbuildinfo
+
+# secrets / env
+.env
+.env.*
+.aws/
+.server-cert-arn
+
+# CDK context (regenerated per environment)
+cdk.context.json
+
+# certificates / keys / bundles — never commit
+ca/
+server/
+*.pem
+*.crt
+*.key
+*.csr
+*.srl
+*.pfx
+*.p12
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs / tmp
+*.log
+/tmp/
