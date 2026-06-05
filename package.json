@@ -1,0 +1,25 @@
+{
+  "name": "alb-mtls-demo",
+  "version": "0.1.0",
+  "description": "AWS ALB mutual TLS (mTLS) demo with zero-downtime trust store rotation, built with AWS CDK v2.",
+  "license": "MIT",
+  "bin": {
+    "alb-mtls-demo": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "aws-cdk": "^2.1033.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.180.0",
+    "constructs": "^10.3.0"
+  }
+}
